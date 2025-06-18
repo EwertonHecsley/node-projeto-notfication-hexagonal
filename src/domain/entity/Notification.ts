@@ -1,3 +1,12 @@
+/* Essa é a entidade de domínio: representa o conceito central do negócio.
+
+Fica na camada mais interna da arquitetura.
+
+Não sabe quem vai usá-la, nem como.
+
+Serve para modelar regras e comportamentos. */
+
+
 export class Notification {
     private constructor(
         private readonly _to: string,
